@@ -11,11 +11,11 @@ import kotlinx.android.synthetic.main.activity_add_note.*
 
 class AddEditNoteActivity : AppCompatActivity() {
     companion object {
-        const val EXTRA_ID = "com.akeno.myapplication.EXTRA_ID"
-        const val EXTRA_JUDUL = "com.akeno.myapplication.EXTRA_JUDUL"
-        const val EXTRA_DESKRIPSI = "com.akeno.myapplication.EXTRA_DESKRIPSI"
-        const val EXTRA_NOMER = "com.akeno.myapplication.EXTRA_NOMER"
-        const val EXTRA_PRIORITAS = "com.akeno.myapplication.EXTRA_PRIORITAS"
+        const val EXTRA_ID = "com.example.latihan11modul10.EXTRA_ID"
+        const val EXTRA_JUDUL = "com.example.latihan11modul10.EXTRA_JUDUL"
+        const val EXTRA_DESKRIPSI = "com.example.latihan11modul10.EXTRA_DESKRIPSI"
+        const val EXTRA_NOMER = "com.example.latihan11modul10.EXTRA_NOMER"
+        const val EXTRA_PRIORITAS = "com.example.latihan11modul10.EXTRA_PRIORITAS"
     }
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
